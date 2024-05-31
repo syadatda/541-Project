@@ -1,0 +1,85 @@
+/* .desc styles */
+.desc {
+  text-align: center;
+  padding: 10px;
+  color: #000000; /* Black text */
+  font-style: italic; /* Italic text for a playful touch */
+}
+
+/* .container styles */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Distribute content evenly */
+  margin: 10px auto;
+  max-width: 900px;
+}
+
+/* .about-image styles */
+.about-image {
+  width: 30%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about-image img {
+  max-width: 100%;
+  border-radius: 50%; /* Round profile picture */
+  border: 7px solid #ffe0f0; /* Light pink border for the image */
+}
+
+/* .about-content styles */
+.about-content {
+  width: 70%;
+  padding: 20px;
+  border: 2px dotted #f092da; /* Light purple dotted border */
+  border-radius: 10px;
+  background-color: #fff; /* White background for content */
+}
+
+.about-content h2 {
+  font-size: 1.5em;
+  color: #f092da; /* Light purple heading */
+  margin-bottom: 10px;
+}
+
+.about-content p {
+  margin-bottom: 10px;
+  line-height: 1.5; /* More space between text lines */
+  text-align: justify; /* Justify text for better readability */
+}
+
+/* .about-me styles */
+.about-me {
+  padding: 20px;
+  border: 2px dotted #f092da; /* Light purple dotted border */
+  border-radius: 10px;
+  background-color: #fff; /* White background for content */
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.about-me h2 {
+  font-size: 1.5em;
+  color: #f092da; /* Light purple heading */
+  margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif; /* Or a similar modern font */
+}
+
+.about-me p {
+  margin-bottom: 15px;
+  line-height: 1.5; /* More space between text lines */
+  text-align: justify; /* Justify text for better readability */
+  font-family: 'Roboto', sans-serif; /* Or a similar modern font */
+}
+
+.about-me ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-me li::before {
+  content: '\25CF'; /* This is the code for a black circle */
+  color: #f092da; /* Light purple */
+  margin-right: 5px;
+}

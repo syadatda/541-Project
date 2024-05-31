@@ -1,0 +1,33 @@
+.education-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.education-section {
+  border: 10px solid #ddd; /* Light gray border for each section */
+  border-radius: 5px; /* Rounded corners for each section */
+  padding: 20px;
+  background-color: #fffbf9; /* Off-white background */
+  width: 300px; /* Set a fixed width for the sections */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  text-align: center;
+}
+
+.education-section h3 {
+  font-size: 1.5rem;
+  color: #666; /* Grayish heading color for subheadings */
+}
+
+.education-details {
+  margin-top: 10px; /* Add space between subheading and details */
+  line-height: 1.5; /* More space between text lines */
+}
+
+.school-logo {
+  width: 100px; /* Adjust the width as needed */
+  height: auto;
+  margin-bottom: 10px;
+}

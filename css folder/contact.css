@@ -1,0 +1,102 @@
+.contact-container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 5px; /* Rounded corners for the contact section */
+  background-color: #fff; /* White background for the contact section */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  display: flex;
+  justify-content: space-between; /* Space between elements */
+  align-items: flex-start; /* Align items to the start */
+}
+
+.contact-details {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.contact-details h2 {
+  font-size: 1.3rem;
+  color: #333; /* Dark gray heading */
+  margin-bottom: 15px;
+}
+
+.contact-details p {
+  font-size: 1rem;
+  color: #666; /* Light gray text */
+  line-height: 1.5; /* Adjust line spacing for readability */
+}
+
+.contact-info,
+.social-media {
+  list-style: none; /* Remove default bullet points */
+  padding: 0;
+  margin: 0; /* Reset margin */
+}
+
+.contact-info li,
+.social-media li {
+  margin-bottom: 10px;
+}
+
+.contact-info i,
+.social-media i {
+  font-size: 1.2rem;
+  color: #876e60; /* Dark brown icon color */
+  margin-right: 10px; /* Spacing between icon and text */
+}
+
+.social-media a {
+  color: #876e60; /* Dark brown link color */
+  text-decoration: none; /* Remove underline from links */
+  transition: color 0.3s ease-in-out; /* Smooth transition on hover */
+}
+
+.social-media a:hover {
+  color: #333; /* Dark gray link color on hover */
+}
+
+/* Comment Box Styling */
+.comment-box {
+  width: 40%;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #FFD8F0; /* Lace color */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.comment-box label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.comment-box input[type="text"],
+.comment-box input[type="email"],
+.comment-box textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.comment-box textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.comment-box button {
+  background-color: #a94064; /* Pinkish red button color */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.comment-box button:hover {
+  background-color: #876e60; /* Darker brown on hover */
+}

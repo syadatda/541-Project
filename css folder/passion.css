@@ -1,0 +1,75 @@
+header p {
+  font-size: 1.2rem;
+  margin-top: 5px;
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  font-size: 1.3rem;
+  color: #a94064; /* Pinkish red heading color */
+  margin-bottom: 10px;
+}
+
+/* Hobbies and creativity styles */
+.hobbies-container,
+.creativity-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Distribute elements evenly */
+  margin-bottom: 20px;
+}
+
+.hobbies-container img,
+.creativity-container video {
+  width: 180px; /* Adjust image/video width as needed */
+  margin: 5px;
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* New styles for hobbies section */
+.hobby-row {
+  display: flex;
+  width: 100%;
+}
+
+.hobby {
+  display: flex; /* Arrange elements side-by-side */
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Vertically align content */
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 48%; /* Set width to fit two hobbies per row */
+  background-color: #fffbf9; /* Off-white background */
+}
+
+.hobby h3 {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+  color: #a94064; /* Pinkish red heading color */
+}
+
+.hobby p {
+  font-size: 0.9rem;
+  text-align: justify;
+  margin-top: 10px; 
+}
+
+.quote {
+  width: 100%; /* Span the full width */
+  margin-top: 50px;
+  font-size: 1.5rem;
+  font-family: 'Playfair Display', serif;
+  color: #F6F6F6;
+  text-align: center; 
+}
+
+.quote p {
+  font-style: italic;
+  margin: 0;
+  text-align: center;
+}

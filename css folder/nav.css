@@ -1,0 +1,41 @@
+/* nav.css */
+
+/* Add navigation bar styles */
+.nav-bar {
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #876e60; /* Dark brown text */
+  margin: 10px;
+}
+
+.nav-bar a:hover {
+  color: #a94064; /* Pinkish red heading color */
+}
+
+body {
+  background-image: url('../image/beach3.jpg');
+  background-size: contain;
+  background-size: cover;
+  font-family: 'Amatic SC', cursive; /* Or a similar light and airy font */
+  margin: 0 auto;
+  padding: 0;
+  background-color: #f5f3f0; /* Light beige background */
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2rem;
+  color: #a94064; /* Pinkish red heading color */
+  margin-bottom: 10px;
+}
